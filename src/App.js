@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './styles.css'
+import Header from './components/Header';
+import Meme from './components/Meme';
 
 function App() {
   return (
     <div className="App">
-      <h1>My react APP</h1>
-      <h2>this is my meme generator</h2>
+      <Header/>
+      <Meme/>
     </div>
   );
 }
